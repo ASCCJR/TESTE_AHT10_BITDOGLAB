@@ -15,7 +15,11 @@ const uint I2C_SCL_PIN = 3;
 
 int main() {
     stdio_init_all();
-    sleep_ms(4000);
+
+    // Aguarda a conexão USB antes de continuar
+    while (!stdio_usb_connected()) {
+        sleep_ms(100);
+    }
 
     printf("--- Iniciando Sensor de Umidade e Temperatura AHT10 ---\n");
 
