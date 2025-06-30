@@ -3,10 +3,15 @@
 #include "hardware/i2c.h"
 #include "aht10.h" // Incluindo a nossa biblioteca AHT10
 
-// Pinos do conector I2C 1 da BitDogLab
+// --- Configuração da Porta I2C 1 da BitDogLab---
 #define I2C_PORT i2c1
 const uint I2C_SDA_PIN = 2;
 const uint I2C_SCL_PIN = 3;
+
+// --- Configuração da Porta I2C 0 da BitDogLab---
+// #define I2C_PORT i2c0
+// const uint I2C_SDA_PIN = 0;
+// const uint I2C_SCL_PIN = 1;
 
 int main() {
     stdio_init_all();
