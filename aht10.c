@@ -1,3 +1,7 @@
+/**
+ * https://github.com/ASCCJR
+ */
+
 #include "aht10.h"
 
 // Comandos do AHT10
