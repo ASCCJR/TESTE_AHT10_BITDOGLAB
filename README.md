@@ -65,4 +65,4 @@ Temperatura: 27.51 C  |  Umidade Relativa: 62.38 %
 
 ✍️ Autor
 
-[ASSCJR]
+Antonio Sergio Castro de Carvalho Junior
