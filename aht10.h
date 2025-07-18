@@ -1,3 +1,7 @@
+/**
+ * https://github.com/ASCCJR
+ */
+
 #ifndef AHT10_H
 #define AHT10_H
 
